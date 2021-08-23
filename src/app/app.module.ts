@@ -3,9 +3,6 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { PaginationModule } from './app-pagination/app-pagination.module';
-
 @NgModule({
   declarations: [
     AppComponent
@@ -13,8 +10,6 @@ import { PaginationModule } from './app-pagination/app-pagination.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-
-    PaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
